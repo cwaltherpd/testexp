@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>95ff0256-fc9f-478e-a5d7-d91242b85191</id>
+    <loglevel>INFO</loglevel>
+    <name>job3_export_test</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "job3"</exec>
+      </command>
+    </sequence>
+    <uuid>95ff0256-fc9f-478e-a5d7-d91242b85191</uuid>
+  </job>
+</joblist>
