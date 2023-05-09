@@ -16,7 +16,7 @@
     <schedules />
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>ls -l</exec>
+        <exec>hostname</exec>
       </command>
     </sequence>
     <uuid>4df73483-6fbf-45f3-8ba2-29796a353def</uuid>
