@@ -1,0 +1,23 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>832e7170-90eb-40ec-8cd2-343fa6f91c0b</id>
+    <loglevel>INFO</loglevel>
+    <name>execution_link_click</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "https://cwalther.rundecksupport.com/project/Santander/execution/show/${job.execid}"</exec>
+      </command>
+      <command>
+        <exec>echo "https://cwalther.rundecksupport.com:443/project/Santander/execution/show/${job.execid}"</exec>
+      </command>
+    </sequence>
+    <uuid>832e7170-90eb-40ec-8cd2-343fa6f91c0b</uuid>
+  </job>
+</joblist>
