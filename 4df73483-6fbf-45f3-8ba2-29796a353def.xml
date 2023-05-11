@@ -9,13 +9,19 @@ edit
 edit 2
 edit 3
 
-added runner and tag aws to localhost]]></description>
+added runner and tag aws to localhost
+
+......]]></description>
     <executionEnabled>true</executionEnabled>
     <id>4df73483-6fbf-45f3-8ba2-29796a353def</id>
     <loglevel>INFO</loglevel>
     <name>runner_test_import</name>
     <nodeFilterEditable>false</nodeFilterEditable>
     <plugins />
+    <runnerSelector>
+      <filter>AWS</filter>
+      <runnerFilterType>TAG_FILTER_AND</runnerFilterType>
+    </runnerSelector>
     <scheduleEnabled>true</scheduleEnabled>
     <schedules />
     <sequence keepgoing='false' strategy='node-first'>
