@@ -20,7 +20,7 @@ added runner and tag aws to localhost
     <nodeFilterEditable>false</nodeFilterEditable>
     <plugins />
     <runnerSelector>
-      <filter>AWS</filter>
+      <filter>REMOTE2</filter>
       <runnerFilterType>TAG_FILTER_AND</runnerFilterType>
     </runnerSelector>
     <scheduleEnabled>true</scheduleEnabled>
