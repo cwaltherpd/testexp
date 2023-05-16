@@ -42,6 +42,10 @@ jjj]]></description>
       <command>
         <exec>echo "other node step"</exec>
       </command>
+      <command>
+        <description>other step</description>
+        <exec>echo "adding other"</exec>
+      </command>
     </sequence>
     <uuid>4df73483-6fbf-45f3-8ba2-29796a353def</uuid>
   </job>
