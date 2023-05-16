@@ -17,7 +17,9 @@ added runner and tag aws to localhost
 
 ggdgff
 
-from loc]]></description>
+from loc
+
+ggg]]></description>
     <executionEnabled>true</executionEnabled>
     <id>4df73483-6fbf-45f3-8ba2-29796a353def</id>
     <loglevel>INFO</loglevel>
@@ -25,7 +27,7 @@ from loc]]></description>
     <nodeFilterEditable>false</nodeFilterEditable>
     <plugins />
     <runnerSelector>
-      <filter>AWS</filter>
+      <filter>REMOTE2</filter>
       <runnerFilterType>TAG_FILTER_AND</runnerFilterType>
     </runnerSelector>
     <scheduleEnabled>true</scheduleEnabled>
