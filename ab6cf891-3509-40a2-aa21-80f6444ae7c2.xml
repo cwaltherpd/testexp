@@ -46,12 +46,6 @@ jjj]]></description>
         <description>other step</description>
         <exec>echo "adding other"</exec>
       </command>
-      <command>
-        <exec>echo "other step"</exec>
-      </command>
-      <command>
-        <exec>echo "job duplicated"</exec>
-      </command>
     </sequence>
     <uuid>ab6cf891-3509-40a2-aa21-80f6444ae7c2</uuid>
   </job>
