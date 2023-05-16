@@ -30,7 +30,7 @@ jjj]]></description>
     <nodeFilterEditable>false</nodeFilterEditable>
     <plugins />
     <runnerSelector>
-      <filter>REMOTE2</filter>
+      <filter>AWS</filter>
       <runnerFilterType>TAG_FILTER_AND</runnerFilterType>
     </runnerSelector>
     <scheduleEnabled>true</scheduleEnabled>
@@ -41,10 +41,6 @@ jjj]]></description>
       </command>
       <command>
         <exec>echo "other node step"</exec>
-      </command>
-      <command>
-        <description>other step</description>
-        <exec>echo "adding other"</exec>
       </command>
     </sequence>
     <uuid>ab6cf891-3509-40a2-aa21-80f6444ae7c2</uuid>
