@@ -1,0 +1,58 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description><![CDATA[edit job
+
+edit from localhost
+
+edit
+edit 2
+edit 3
+
+added runner and tag aws to localhost
+..
+......
+...
+
+
+ggdgff
+
+from loc
+
+ggg
+
+fdffgd
+jjj]]></description>
+    <executionEnabled>true</executionEnabled>
+    <id>ab6cf891-3509-40a2-aa21-80f6444ae7c2</id>
+    <loglevel>INFO</loglevel>
+    <name>runner_test_import2</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <runnerSelector>
+      <filter>REMOTE2</filter>
+      <runnerFilterType>TAG_FILTER_AND</runnerFilterType>
+    </runnerSelector>
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>hostname</exec>
+      </command>
+      <command>
+        <exec>echo "other node step"</exec>
+      </command>
+      <command>
+        <description>other step</description>
+        <exec>echo "adding other"</exec>
+      </command>
+      <command>
+        <exec>echo "other step"</exec>
+      </command>
+      <command>
+        <exec>echo "job duplicated"</exec>
+      </command>
+    </sequence>
+    <uuid>ab6cf891-3509-40a2-aa21-80f6444ae7c2</uuid>
+  </job>
+</joblist>
