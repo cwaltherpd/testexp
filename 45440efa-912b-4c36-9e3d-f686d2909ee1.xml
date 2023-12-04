@@ -8,6 +8,10 @@
     <name>job5</name>
     <nodeFilterEditable>false</nodeFilterEditable>
     <plugins />
+    <runnerSelector>
+      <filter>AWS</filter>
+      <runnerFilterType>TAG_FILTER_AND</runnerFilterType>
+    </runnerSelector>
     <scheduleEnabled>true</scheduleEnabled>
     <schedules />
     <sequence keepgoing='false' strategy='node-first'>
