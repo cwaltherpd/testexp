@@ -1,7 +1,7 @@
 <joblist>
   <job>
     <defaultTab>nodes</defaultTab>
-    <description></description>
+    <description>Hello Iogor</description>
     <executionEnabled>true</executionEnabled>
     <id>9261873f-d3c5-43bd-b273-61c2ee6dc7b6</id>
     <loglevel>INFO</loglevel>
@@ -13,6 +13,9 @@
     <sequence keepgoing='false' strategy='node-first'>
       <command>
         <exec>hostname</exec>
+      </command>
+      <command>
+        <exec>echo "testing scm"</exec>
       </command>
     </sequence>
     <uuid>9261873f-d3c5-43bd-b273-61c2ee6dc7b6</uuid>
